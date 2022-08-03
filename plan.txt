@@ -1,0 +1,17 @@
+
+PROJECT LIST for WORDLE
+[-] make grid with letters centered
+[-] figure out how to add text into each cell using keypresses
+[-] figure out how to limit text to each row
+[-] figure out how to obtain text from each cell
+[] figure out logic behind wordle
+    [] figure out FileSystem
+    [] figre out how to implement js-wordle git project
+
+
+AFTER BASIC OBJECTIVES ARE ALL DONE
+[] how to display keyboard on the bottom
+[] how to scale the game to mobile (meaning that it fits to every screensize)
+[] make it look prettier
+
+ 

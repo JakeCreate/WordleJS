@@ -1,0 +1,28 @@
+body {
+    display:flex;
+    background-color: blueviolet;
+    margin:none;
+    justify-content: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(6, 80px);
+}
+.cell {
+    border-width:2px;
+    border-style:solid;
+    border-color:#000000;
+    display: flex;
+    background-color: antiquewhite;
+    margin: 3px 3px 3px 3px;
+    justify-content: center;
+    align-items: center;
+    
+}
+p {
+    margin:0px;
+    text-align: center;
+}

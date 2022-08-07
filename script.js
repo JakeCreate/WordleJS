@@ -56,8 +56,10 @@ window.addEventListener("keydown", (event) => {
         }
         guessWord = '';
         
-        for(let i = 0; i < NUM_OF_COLUMNS; i++) {
-            currentTiles[i].className = 'grey-cell';
+        for (let i = 0; i < NUM_OF_COLUMNS; i++) {
+            if (currentTiles[i].className != 'yellow-cell' || currentTiles[i].className != 'green-cell') {
+                currentTiles[i].className = 'grey-cell';
+            }
         }
     } 
     if (event.code === "Backspace" && currColNum > 0) {

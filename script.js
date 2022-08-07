@@ -57,7 +57,7 @@ window.addEventListener("keydown", (event) => {
         guessWord = '';
         
         for (let i = 0; i < NUM_OF_COLUMNS; i++) {
-            if (currentTiles[i].className != 'yellow-cell' || currentTiles[i].className != 'green-cell') {
+            if (currentTiles[i].className == 'cell') {
                 currentTiles[i].className = 'grey-cell';
             }
         }

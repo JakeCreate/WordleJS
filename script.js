@@ -40,8 +40,6 @@ window.addEventListener("keydown", (event) => {
                             } else {
                                 displayGrid.querySelectorAll(`#r${currRowNum}`)[i].className = 'yellow-cell';
                             }
-                        } else {
-                            displayGrid.querySelectorAll(`#r${currRowNum}`)[i].className = 'grey-cell';
                         }
                     }
                 }
@@ -62,6 +60,10 @@ window.addEventListener("keydown", (event) => {
             console.log("invalid # number of characters");
         }
         guessWord = '';
+    
+        for(let i = 0; i < NUM_OF_COLUMNS; i++) {
+
+        }
     } 
     if (event.code === "Backspace" && currColNum > 0) {
         currColNum-=1;
